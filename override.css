@@ -53,7 +53,12 @@ a:hover{
   border-radius: 18px;
 }
 
-
+#virgin
+{  background: #e10a0a;
+background: -moz-linear-gradient(top, #e10a0a 0%, #77276c 100%);
+background: -webkit-linear-gradient(top, #e10a0a 0%,#77276c 100%);
+background: linear-gradient(to bottom, #e10a0a 0%,#77276c 100%);
+}
 #id1
 {
   background-color:#6cb87a;
