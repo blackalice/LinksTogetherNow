@@ -53,15 +53,7 @@ a:hover{
   border-radius: 18px;
 }
 
-#virgin
-{
-  background: #e10a0a;
-background: -moz-linear-gradient(top, #e10a0a 0%, #77276c 100%);
-background: -webkit-linear-gradient(top, #e10a0a 0%,#77276c 100%);
-background: linear-gradient(to bottom, #e10a0a 0%,#77276c 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e10a0a', endColorstr='#77276c',GradientType=0 );
 
-}
 #id1
 {
   background-color:#6cb87a;
