@@ -1,0 +1,56 @@
+.AllTogetherNow {
+  font-family: "Telefon Black";
+}
+
+
+
+a,p {
+  font-family: "Texta";
+  font-size: 20px;
+
+}
+
+.headlink {font-size:30px;
+font-weight: 600;}
+
+
+a:link {
+    color: white;
+}
+
+a:visited {
+  color:white;
+}
+
+
+.col-4
+{height: 200px;
+padding-top: 20px;
+}
+
+#virgin
+{
+  background-color:#cc0001;
+
+}
+#id1
+{
+  background-color:#6cb87a;
+
+}
+
+#atn
+{
+  background-color:#ef6726;
+
+}
+#argos
+{
+  background-color:#fc0d1b;
+
+}
+#Travelodge
+{
+  background-color:#18427d;
+
+}
