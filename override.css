@@ -1,3 +1,26 @@
+@font-face {
+  font-family: 'Textra';
+  src: url('tB.otf') format('OpenType'), /* IE6-IE8 */
+}
+
+@font-face {
+  font-family: 'Textra';
+  src: url('tM.otf') format('OpenType'), /* IE6-IE8 */
+}
+
+@font-face {
+  font-family: 'Textra';
+  src: url('tR.otf') format('OpenType'), /* IE6-IE8 */
+}
+
+
+@font-face {
+  font-family: 'Telefon Black';
+  src: url('Telefon.otf') format('OpenType'), /* IE6-IE8 */
+}
+
+
+
 .AllTogetherNow {
   font-family: "Telefon Black";
 }
