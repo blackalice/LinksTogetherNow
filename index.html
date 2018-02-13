@@ -3,23 +3,39 @@
 
 </head>
 <body>
-
-
-
-
-
-  <link href="override.css" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="override.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+<body onload="startTime()">
+
 
 <div class="container" style="padding-top:50px;">
-    <h1 class="AllTogetherNow"> LinksTogetherNow</h1> </br>
+  <div class="row headerrow">    <div class="col-md-8"><h1 class="AllTogetherNow">LinksTogetherNow</h1></div>
+
+  <p class="col-md-4 clock" id="txt"></p>
+</div>
 
 
-  <div class="row" style="">
-        <div class="col-4"id="atn">
-          <a class="headlink" href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow"> AllTogetherNow </a> <br></>
+  <div class="row contentrow" style="">
+        <div class="col-md-4 contentcol"id="atn">
+          <a class="headlink" href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow">AllTogetherNow</a> <br>
          <a href="https://atn.float.com/">Float</a> <br>
           <a href="https://chistatus.wipsystems.co.uk/">Status Report Manager</a> <br>
             <a href="https://atnlondon.slack.com">Slack</a> <br>
@@ -27,34 +43,77 @@
 
 
         </div>
-        <div class="col-4" id="virgin">
-          <a class="headlink" href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/VIRGIN_MONEY"> Virgin Money </a> <br>
-            <a href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/VIRGIN_MONEY/Jobs"> Jobs</a> <br>
+        <div class="col-md-4 contentcol" id="virgin">
+          <a class="headlink" href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/VIRGIN_MONEY">Virgin Money</a> <br>
+            <a href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/VIRGIN_MONEY/Jobs">Jobs</a> <br>
           </div>
-        <div class="col-4" id="id1">
-      <a class="headlink" href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/iD_Mobile"> iD Mobile </a> <br></>
-          <a href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/iD_Mobile/Jobs%20"> Jobs</a> <br>
-          <a href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/iD_Mobile/Jobs%20/GLOBAL%20ASSETS"> Global Assets </a> <br>
+        <div class="col-md-4 contentcol" id="id1">
+      <a class="headlink" href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/iD_Mobile"> iD Mobile </a> <br>
+          <a href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/iD_Mobile/Jobs%20">Jobs</a> <br>
+          <a href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/iD_Mobile/Jobs%20/GLOBAL%20ASSETS">Global Assets</a> <br>
               </div>
             </div>
-      <div class="row">
-            <div class="col-4" id="Argos">
-              <a class="headlink" href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/Argos"> Argos </a> <br></>
+      <div class="row contentrow">
+            <div class="col-md-4 contentcol" id="argos">
+              <a class="headlink" href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/Argos"> Argos </a> <br>
               <a href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/Argos/_DESIGN">Design</a> <br>
-              <a href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/Argos/_DESIGN/2017"> 2017 </a> <br>
-              <a href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/Argos/_DESIGN/2018"> 2018 </a> <br>
+              <a href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/Argos/_DESIGN/2017">2017</a> <br>
+              <a href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/Argos/_DESIGN/2018">2018</a> <br>
+
             </div>
-            <div class="col-4"id="Travelodge">
-              <a class="headlink" href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/TRAVELODGE"> Travelodge </a> <br></>
-              <a href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/TRAVELODGE/2017"> 2017</a> <br>
-              <a href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/TRAVELODGE/2018"> 2018 </a> <br>
-              <a href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/TRAVELODGE/2017/Creative/Design/-%20Assets"> Assets </a> <br>
-            <div class="col-4">
 
-          </div>
+            <div class="col-md-4 contentcol"id="google">
+              <a class="headlink" id="googlelink" href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/TRAVELODGE"> Google </a> <br>
+              <a id="googlelink" href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/TRAVELODGE/2017">PLACEHOLDER</a> <br>
 
+        </div>
+            <div class="col-md-4 contentcol"id="travelodge">
+              <a class="headlink" href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/TRAVELODGE"> Travelodge </a> <br>
+              <a href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/TRAVELODGE/2017">2017</a> <br>
+              <a href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/TRAVELODGE/2018">2018</a> <br>
+              <a href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/TRAVELODGE/2017/Creative/Design/-%20Assets">Assets</a> <br>
+        </div>
+
+
+  </div>
+  <div class="row contentrow">
+        <div class="col-md-4 contentcol" id="chad">
+          <a class="headlink" href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/Argos"> Chad Valley </a> <br>
+          <a href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/TRAVELODGE/2017/Creative/Design/-%20Assets">PLACEHOLDER</a> <br>
+        </div>
+        <div class="col-md-4 contentcol"id="cuggl">
+          <a class="headlink" href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/TRAVELODGE"> Cuggl </a> <br>
+          <a href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/TRAVELODGE/2017/Creative/Design/-%20Assets">PLACEHOLDER</a> <br>
+        </div>
+        <div class="col-md-4 contentcol"id="lexus">
+          <a class="headlink" href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/TRAVELODGE">Lexus</a> <br>
+          <a href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/TRAVELODGE/2017/Creative/Design/-%20Assets">PLACEHOLDER</a> <br>
+        </div>
 
 
 </div>
+<div class="row contentrow">
+      <div class="col-md-4 contentcol" id="hive">
+        <a class="headlink" href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/Argos"> Hive </a> <br>
+        <a href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/TRAVELODGE/2017/Creative/Design/-%20Assets">PLACEHOLDER</a> <br>
+      </div>
+      <div class="col-md-4 contentcol"id="hh">
+        <a class="headlink" id="hhlink" href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/TRAVELODGE"> Heath & Heather</a> <br>
+        <a id="hhlink" href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/TRAVELODGE/2017/Creative/Design/-%20Assets">PLACEHOLDER</a> <br>
+      </div>
+      <div class="col-md-4 contentcol"id="hoh">
+        <a class="headlink" href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/TRAVELODGE">Heart of House</a> <br>
+        <a href="smb://london.chiadvertising.com/Dept/London/Departments/AllTogetherNow/TRAVELODGE/2017/Creative/Design/-%20Assets">PLACEHOLDER</a> <br>
+      </div>
+
+
+</div>
+
+
+
+</br>
+<div style="color:#AAA;font-size:10px;">V0.2</div>
+</div>
+
 </body>
 </html>

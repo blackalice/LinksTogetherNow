@@ -46,16 +46,42 @@ a:visited {
 }
 
 
-.col-4
-{height: 200px;
-padding-top: 20px;
+
+.contentrow {
+  min-height: 225px;
 }
 
-#virgin
-{
-  background-color:#cc0001;
-
+.clock {
+  text-align:right;
+  padding-top:17px;
 }
+
+
+.headerrow{
+  margin-bottom:20px;
+  padding-bottom:5px;
+  border-width:2px;
+  border-color:#EEEEEE;
+  border-bottom-style:solid;
+}
+
+.contentcol {
+  padding-top: 20px;
+  padding-bottom:35px;
+  border-width:10px;
+  border-color:white;
+  border-style:solid;
+  border-radius: 18px;
+}
+
+#virgin {
+background: #e10a0a;
+background: -moz-linear-gradient(top, #e10a0a 0%, #77276c 100%);
+background: -webkit-linear-gradient(top, #e10a0a 0%,#77276c 100%);
+background: linear-gradient(to bottom, #e10a0a 0%,#77276c 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e10a0a', endColorstr='#77276c',GradientType=0 );
+}
+
 #id1
 {
   background-color:#6cb87a;
@@ -72,8 +98,42 @@ padding-top: 20px;
   background-color:#fc0d1b;
 
 }
-#Travelodge
+#travelodge
 {
   background-color:#18427d;
+}
+
+#google
+{
+  background-color:#fbfbfb;
 
 }
+#googlelink
+{color:#858a8d;
+}
+#chad
+{
+  background-color:#cc0a2e;
+
+}
+#cuggl
+{
+  background-color:#f58474;
+}
+
+#lexus
+{
+  background-color:#1a1a1a;
+}
+#hive
+{
+  background-color:#ff7a00;
+}
+#hh
+{  background-color:#e1d9c2;}
+
+#hoh
+{  background-color:#822261;}
+
+#hhlink
+{color:black;}
